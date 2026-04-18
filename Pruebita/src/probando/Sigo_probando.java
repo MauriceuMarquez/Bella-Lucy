@@ -8,6 +8,9 @@ double m=2.5
 //no sé si lo estaré haciendo bien
 }
 
-public static void Fibonacci (int n)
+public static void Fibonacci (int n){
+    if (n<0);
+    return 1;
+}
 
 
